@@ -91,7 +91,7 @@ function getCloseButton() {
 
 const appendImage = () =>{
 	var img = document.createElement("img");
-	img.src = "https://blog.testlodge.com/wp-content/uploads/2017/10/test-case-sources-1024x538.png"
+	img.src = "https://raw.githubusercontent.com/hitesh-c/detube/main/Detube.png"
 	var src = document.querySelector("#center");
 	const doc = src.appendChild(img);
 
