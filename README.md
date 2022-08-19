@@ -1,8 +1,8 @@
-# YouTube Ad-block
+# DeTube 🎯
 
-Turns off YouTube ad-movies and ad-banners automatically when they begin.
+Turns off YouTube Recomendations, ad-movies and ad-banners automatically when they begin. Good for students and focused people, we say "Search Here😌.. No Ads & recomendations, stay focused!🎯".
 
-## Install and run:
+## Install and run Detube:
 
 1. Sign in to your account in the Chrome browser.
 

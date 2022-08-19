@@ -86,12 +86,69 @@ function getCloseButton() {
  *
  * @type {number}
  */
+
+
+
+const appendImage = () =>{
+	var img = document.createElement("img");
+	img.src = "https://blog.testlodge.com/wp-content/uploads/2017/10/test-case-sources-1024x538.png"
+	var src = document.querySelector("#center");
+	const doc = src.appendChild(img);
+
+	doc.style.cssText = `
+	position: absolute;
+     width: 300px;
+	 heght: auto;
+	 bottom : 10vh;
+     left: 19vw;
+	 margin: auto;
+`;
+}
+
+
+
 const closeBannerFinderInterval = setInterval(() => {
     const closeButton = getCloseButton();
-    document.querySelector("#page-manager > ytd-browse > ytd-two-column-browse-results-renderer").style.display="none";
-	document.querySelector("#related").style.display="none";
-	
-	document.querySelector("#primary > ytd-rich-grid-renderer")
+	document.querySelector("#search-input > input").setAttribute("placeholder","Search Here😌.. No Ads & recomendations, stay focused!🎯 ")
+	const homepage =  document.querySelector("#page-manager > ytd-browse > ytd-two-column-browse-results-renderer");
+	const related = document.querySelector("#related");
+	const reels= document.querySelector("#contents > ytd-reel-shelf-renderer");
+	const sidebar = document.querySelector("#content > ytd-mini-guide-renderer");
+
+	if(homepage){
+		homepage.style.display="none";
+	}
+
+	if(related){
+		related.style.display="none";
+	}
+
+	if(sidebar){
+		sidebar.style.display="none";
+	}
+		 
+	if(reels){
+		reels.style.display="none";
+	  }
+   
+	if(window.location.pathname==="/"){
+	document.querySelector("head > title").innerText ="🎯 DeTube";
+	document.querySelector("#center").style.cssText = `
+	position: absolute;
+    top: 45vh;
+    left: 20vw;
+     width: 800px;
+
+  `;
+appendImage();
+
+	}else{
+		document.querySelector("#center").style.cssText = `
+		position : relative`;
+	}
+  
+	document.querySelector("#logo").style.display="none";
+
 	// console.log("scrpt");
     if (closeButton) {
         closeButton.click();

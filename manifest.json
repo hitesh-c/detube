@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "YouTube Ad-block",
+    "name": "Detube: Youtube Zen Mode",
     "version": "1.4",
-    "description": "Turns off YouTube ad-movies and ad-banners automatically when they begin.",
+    "description": "Turns off YouTube Recomendations, ad-movies and ad-banners automatically when they begin. Good for students and focused people",
     "icons": {
         "128": "icon.png"
     },
