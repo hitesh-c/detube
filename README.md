@@ -1,6 +1,7 @@
 # DeTube 🎯
 
 Turns off YouTube Recomendations, ad-movies and ad-banners automatically when they begin. Good for students and focused people! "Search Here😌.. No Ads & recomendations, stay focused!🎯".
+<div style="text-align:center;width: 100%;"><style scoped>.on-the-fly-behavior {cursor: pointer;}</style><div class="on-the-fly-behavior"><a href="https://getmechai.vercel.app/link.html?vpa=8708063057@upi&nm=HiteshChawla&amt=100" target="_blank"><img style="border: 2px solid #3e2e21;border-radius: 20px;" src="https://i.ibb.co/Xkdj83y/image-2.png" alt="buymechai" border="0"></a></div></div>
 
 <img width="952" alt="image" src="https://user-images.githubusercontent.com/65300791/185728538-16e858ab-69c8-437c-a144-92d6e007ffb5.png">
 
