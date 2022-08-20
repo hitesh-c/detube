@@ -95,10 +95,12 @@ const appendImage = () =>{
 	var src = document.querySelector("#center");
 	const doc = src.appendChild(img);
 
+	
+
 	doc.style.cssText = `
 	position: absolute;
      width: 300px;
-	 heght: auto;
+	 height: auto;
 	 bottom : 10vh;
      left: 19vw;
 	 margin: auto;
