@@ -16,12 +16,12 @@ Turns off YouTube Recomendations, ad-movies and ad-banners automatically when th
 
 ## Features 
 
-1. Turns off YouTube Recomendations, ad-movies and ad-banners automatically when they begin
+🎯 Turns off YouTube Recomendations, ad-movies and ad-banners automatically when they begin
 
 <img width="952" alt="image" src="https://user-images.githubusercontent.com/65300791/185728609-97b3adea-c496-452c-bf4a-b1e7840dbee7.png">
 
 
-2. Script not running constantly in background. Yes, possible!
+🎯 Lite on Browser: Script not running constantly in background, only runs when required!
 
 ![image](https://user-images.githubusercontent.com/65300791/185728496-d3399109-244b-40bc-8aaa-7a94b372ce07.png)
 
