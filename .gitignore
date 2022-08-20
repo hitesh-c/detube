@@ -9,3 +9,6 @@ logs
 node_modules
 *.log
 target
+manifest.json
+script.js
+icon.png

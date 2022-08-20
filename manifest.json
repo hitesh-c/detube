@@ -1,15 +1,12 @@
 {
     "manifest_version": 2,
     "name": "Detube: Youtube Zen Mode",
-    "version": "1.4",
+    "version": "1.1.16",
     "description": "Turns off YouTube Recomendations, ad-movies and ad-banners automatically when they begin. Good for students and focused people",
     "icons": {
         "128": "icon.png"
     },
-    "browser_action" : {
-        "default_popup": "popup.html"
-      
-    },
+  
     "content_scripts": [
         {
             "matches": [
@@ -17,7 +14,7 @@
                 "https://www.youtube.com/*"
             ],
             "js": [
-                "ext.js"
+                "script.js"
             ]
         }
     ]
