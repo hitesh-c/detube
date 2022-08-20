@@ -9,6 +9,6 @@ logs
 node_modules
 *.log
 target
-manifest.json
+./manifest.json
 script.js
 icon.png
